@@ -1,0 +1,45 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>
+      Health Insurance
+    </title>
+  </head>
+<body>
+  <div>Enter name, age, and relationship for each person who will be covered.</div> <br>
+
+  <label name="firstName">First Name</label>
+  <input type="text" name="firstName" id="firstName"/> <br>
+
+  <label name="lastName">Last Name</label>
+  <input type="text" name="lastName" id="lastName"/> <br>
+
+  <label name="age">Age</label>
+  <input type="text" name="age" id="age"/> <br>
+
+  <label name="relationship">Relationship</label>
+  <select name="relationship" id="relationship"> <br>
+    <option value="Myself">Myself</option>
+    <option value="Husband">Husband</option>
+    <option value="Wife">Wife</option>
+    <option value="Son">Son</option>
+    <option value="Daughter">Daughter</option>
+  </select><br>
+
+  <button id="add">Add</button>
+  <br><br>
+
+   Need to remove someone?<br>
+
+   <label name="idNumber">ID number</label>
+  <input type="text" name="idNumber" id="idNumber"/><br>
+
+  <button id="delete">Remove</button> 
+  <br><hr>
+
+  <div>Current members: </div><br>
+  <div id="currentMembers"></div>
+
+<script src='js.js'></script>
+</body>
+</html>
